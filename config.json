@@ -1,0 +1,22 @@
+{
+    "node1": {
+        "host": "",
+        "username": "root",
+        "password": ""
+    },
+    "node2": {
+        "host": "",
+        "username": "root",
+        "password": ""
+    },
+    "node3": {
+        "host": "",
+        "username": "root",
+        "password": ""
+    },
+    "node4": {
+        "host": "",
+        "username": "root",
+        "password": ""
+    }
+}
