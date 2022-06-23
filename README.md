@@ -3,10 +3,13 @@
 DISCLAIMERS
 
 !! Main purpose for this tool is to show you how to use ssh2 module to connect with your vps and execute commands on it !!
+
 !! Don't use this tool to attack people's websites without their permission !! 
+
 !! I'm not responsible for damage you can cause with this tool !! 
 
 !! hyper.js attack script is not mine, original creator and his other scripts can be found here: https://github.com/hoaan1995/ZxCDDoS !!
+
 !! hyper.js is a powerful layer7 script and can down most sites without protection with ease so be careful what you do with it !!
 
 SETUP
