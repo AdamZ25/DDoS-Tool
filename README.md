@@ -2,7 +2,7 @@
 
 DISCLAIMERS
 
-!! Main purpose for this tool is to show you how to use ssh2 module to connect with your vps and execute commands on it !!
+!! FOR EDUCATIONAL PURPOSES ONLY !!
 
 !! Don't use this tool to attack people's websites without their permission !! 
 
